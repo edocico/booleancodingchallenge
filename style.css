@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sfondo {
+    background-image: url(img/background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 65%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+}
+
+.block1 {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgba(0, 221, 0, 1.0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    height: 45px;
+    background-color: rgba(0, 221, 0, 1.0);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-item {
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 5px;
+}
+
+.charge-bar {
+    width: 35%;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.charge-bar2 {
+    width: 65%;
+    height: 30px;
+    background-color: lawngreen;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.charge-bar3 {
+    width: 15%;
+    height: 30px;
+    background-color: maroon;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.main-item > div {
+     font-family: 'Quicksand', sans-serif;
+}
+
+.street {
+    margin-bottom: 5px;
+}
+
+
+
